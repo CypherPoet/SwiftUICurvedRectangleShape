@@ -33,10 +33,10 @@ _An animatable SwiftUI Shape for drawing a rectangle with curved sides along the
 <p />
 
 
-## Features
+<!-- ## Features
 
 - ✅ Feature 1
-- ✅ Feature 2
+- ✅ Feature 2 -->
 
 
 ## Installation
@@ -75,9 +75,9 @@ targets: [
 ]
 ```
 
-Then simply `import SwiftUICurvedRectangleShape` wherever you’d like to use it.
+Then simply `import SwiftUICurvedRectangleShape` wherever you’d like to use the `CurvedRectangle` type.
 
-
+<!--
 ## Usage
 
 
@@ -85,7 +85,7 @@ Then simply `import SwiftUICurvedRectangleShape` wherever you’d like to use it
 ## 🗺 Roadmap
 
 - World Domination
-
+ -->
 
 
 ## Contributing
