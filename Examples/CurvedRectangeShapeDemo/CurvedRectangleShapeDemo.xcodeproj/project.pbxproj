@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30D6D1D26010EA70025335E /* SwiftUIPreviewUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F30D6D1C26010EA70025335E /* SwiftUIPreviewUtils */; };
+		F30D6D2026010EB60025335E /* SwiftUIPreviewUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F30D6D1F26010EB60025335E /* SwiftUIPreviewUtils */; };
+		F30D6D2326010EF80025335E /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F30D6D2226010EF80025335E /* SwiftUIStarterKit */; };
+		F30D6D2526010F000025335E /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F30D6D2426010F000025335E /* SwiftUIStarterKit */; };
+		F30D6D27260110E90025335E /* WelcomeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D6D26260110E90025335E /* WelcomeOptionsView.swift */; };
+		F30D6D28260110E90025335E /* WelcomeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D6D26260110E90025335E /* WelcomeOptionsView.swift */; };
+		F34BD7522601F814002933C5 /* WelcomeSceneOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */; };
+		F34BD7532601F814002933C5 /* WelcomeSceneOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */; };
+		F34BD7572601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7562601FFF6002933C5 /* ShapingExamplesViewer.swift */; };
+		F34BD7582601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7562601FFF6002933C5 /* ShapingExamplesViewer.swift */; };
+		F379FCED25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FCDA25FFE4AB008DE89B /* CurvedRectangleShapeDemo.swift */; };
+		F379FCEE25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FCDA25FFE4AB008DE89B /* CurvedRectangleShapeDemo.swift */; };
+		F379FD2426010B94008DE89B /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1026010B94008DE89B /* ThemeColors.swift */; };
+		F379FD2526010B94008DE89B /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1026010B94008DE89B /* ThemeColors.swift */; };
+		F379FD2626010B94008DE89B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1326010B94008DE89B /* Colors.xcassets */; };
+		F379FD2726010B94008DE89B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1326010B94008DE89B /* Colors.xcassets */; };
+		F379FD2826010B94008DE89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1426010B94008DE89B /* Assets.xcassets */; };
+		F379FD2926010B94008DE89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1426010B94008DE89B /* Assets.xcassets */; };
+		F379FD2A26010B94008DE89B /* CurvedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1626010B94008DE89B /* CurvedRectangle.swift */; };
+		F379FD2B26010B94008DE89B /* CurvedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1626010B94008DE89B /* CurvedRectangle.swift */; };
+		F379FD2C26010B94008DE89B /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1726010B94008DE89B /* Trapezoid.swift */; };
+		F379FD2D26010B94008DE89B /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1726010B94008DE89B /* Trapezoid.swift */; };
+		F379FD2E26010B94008DE89B /* CGRect+Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1B26010B94008DE89B /* CGRect+Points.swift */; };
+		F379FD2F26010B94008DE89B /* CGRect+Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1B26010B94008DE89B /* CGRect+Points.swift */; };
+		F379FD3026010B94008DE89B /* RectangleCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1C26010B94008DE89B /* RectangleCorner.swift */; };
+		F379FD3126010B94008DE89B /* RectangleCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1C26010B94008DE89B /* RectangleCorner.swift */; };
+		F379FD3426010B94008DE89B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1F26010B94008DE89B /* RootView.swift */; };
+		F379FD3526010B94008DE89B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1F26010B94008DE89B /* RootView.swift */; };
+		F379FD3C26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */; };
+		F379FD3D26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F30D6D26260110E90025335E /* WelcomeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeOptionsView.swift; sourceTree = "<group>"; };
+		F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneOption.swift; sourceTree = "<group>"; };
+		F34BD7562601FFF6002933C5 /* ShapingExamplesViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapingExamplesViewer.swift; sourceTree = "<group>"; };
+		F379FCDA25FFE4AB008DE89B /* CurvedRectangleShapeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedRectangleShapeDemo.swift; sourceTree = "<group>"; };
+		F379FCE125FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurvedRectangleShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F379FCE425FFE4AD008DE89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F379FCE925FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurvedRectangleShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F379FCEB25FFE4AD008DE89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F379FCEC25FFE4AD008DE89B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F379FCFB25FFE4D8008DE89B /* SwiftUICurvedRectangleShape */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftUICurvedRectangleShape; path = ../..; sourceTree = "<group>"; };
+		F379FD1026010B94008DE89B /* ThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		F379FD1326010B94008DE89B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F379FD1426010B94008DE89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F379FD1626010B94008DE89B /* CurvedRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedRectangle.swift; sourceTree = "<group>"; };
+		F379FD1726010B94008DE89B /* Trapezoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
+		F379FD1B26010B94008DE89B /* CGRect+Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Points.swift"; sourceTree = "<group>"; };
+		F379FD1C26010B94008DE89B /* RectangleCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleCorner.swift; sourceTree = "<group>"; };
+		F379FD1F26010B94008DE89B /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSceneViewer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F379FCDE25FFE4AD008DE89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D6D1D26010EA70025335E /* SwiftUIPreviewUtils in Frameworks */,
+				F30D6D2326010EF80025335E /* SwiftUIStarterKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F379FCE625FFE4AD008DE89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D6D2026010EB60025335E /* SwiftUIPreviewUtils in Frameworks */,
+				F30D6D2526010F000025335E /* SwiftUIStarterKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30D6D1E26010EB60025335E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F34BD7552601FFC1002933C5 /* Shaping */ = {
+			isa = PBXGroup;
+			children = (
+				F34BD7562601FFF6002933C5 /* ShapingExamplesViewer.swift */,
+			);
+			path = Shaping;
+			sourceTree = "<group>";
+		};
+		F379FCD425FFE4AB008DE89B = {
+			isa = PBXGroup;
+			children = (
+				F379FCFB25FFE4D8008DE89B /* SwiftUICurvedRectangleShape */,
+				F379FCE325FFE4AD008DE89B /* iOS */,
+				F379FCEA25FFE4AD008DE89B /* macOS */,
+				F379FCE225FFE4AD008DE89B /* Products */,
+				F379FCD925FFE4AB008DE89B /* Shared */,
+				F30D6D1E26010EB60025335E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F379FCD925FFE4AB008DE89B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F379FCDA25FFE4AB008DE89B /* CurvedRectangleShapeDemo.swift */,
+				F379FD1226010B94008DE89B /* Resources */,
+				F379FD1D26010B94008DE89B /* Scene Views */,
+				F379FD1526010B94008DE89B /* Shape Components */,
+				F379FD0E26010B94008DE89B /* Styling */,
+				F379FD1826010B94008DE89B /* Toolbox */,
+				F379FD1126010B94008DE89B /* View Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F379FCE225FFE4AD008DE89B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F379FCE125FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */,
+				F379FCE925FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F379FCE325FFE4AD008DE89B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F379FCE425FFE4AD008DE89B /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F379FCEA25FFE4AD008DE89B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F379FCEB25FFE4AD008DE89B /* Info.plist */,
+				F379FCEC25FFE4AD008DE89B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F379FD0E26010B94008DE89B /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				F3E0AA6126036EFB00C101C7 /* Gradients */,
+				F379FD0F26010B94008DE89B /* Colors */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		F379FD0F26010B94008DE89B /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				F379FD1026010B94008DE89B /* ThemeColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		F379FD1126010B94008DE89B /* View Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Components";
+			sourceTree = "<group>";
+		};
+		F379FD1226010B94008DE89B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F379FD1326010B94008DE89B /* Colors.xcassets */,
+				F379FD1426010B94008DE89B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F379FD1526010B94008DE89B /* Shape Components */ = {
+			isa = PBXGroup;
+			children = (
+				F379FD1626010B94008DE89B /* CurvedRectangle.swift */,
+				F379FD1726010B94008DE89B /* Trapezoid.swift */,
+			);
+			path = "Shape Components";
+			sourceTree = "<group>";
+		};
+		F379FD1826010B94008DE89B /* Toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				F379FD1926010B94008DE89B /* Extensions */,
+				F379FD1C26010B94008DE89B /* RectangleCorner.swift */,
+			);
+			path = Toolbox;
+			sourceTree = "<group>";
+		};
+		F379FD1926010B94008DE89B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F379FD1A26010B94008DE89B /* CGRect */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F379FD1A26010B94008DE89B /* CGRect */ = {
+			isa = PBXGroup;
+			children = (
+				F379FD1B26010B94008DE89B /* CGRect+Points.swift */,
+			);
+			path = CGRect;
+			sourceTree = "<group>";
+		};
+		F379FD1D26010B94008DE89B /* Scene Views */ = {
+			isa = PBXGroup;
+			children = (
+				F34BD7552601FFC1002933C5 /* Shaping */,
+				F379FD1F26010B94008DE89B /* RootView.swift */,
+				F379FD3A26010C6A008DE89B /* Welcome */,
+			);
+			path = "Scene Views";
+			sourceTree = "<group>";
+		};
+		F379FD3A26010C6A008DE89B /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */,
+				F30D6D26260110E90025335E /* WelcomeOptionsView.swift */,
+				F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		F3E0AA6126036EFB00C101C7 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gradients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F379FCE025FFE4AD008DE89B /* CurvedRectangleShapeDemo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F379FCF525FFE4AD008DE89B /* Build configuration list for PBXNativeTarget "CurvedRectangleShapeDemo (iOS)" */;
+			buildPhases = (
+				F379FCDD25FFE4AD008DE89B /* Sources */,
+				F379FCDE25FFE4AD008DE89B /* Frameworks */,
+				F379FCDF25FFE4AD008DE89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CurvedRectangleShapeDemo (iOS)";
+			packageProductDependencies = (
+				F30D6D1C26010EA70025335E /* SwiftUIPreviewUtils */,
+				F30D6D2226010EF80025335E /* SwiftUIStarterKit */,
+			);
+			productName = "CurvedRectangeShapeDemo (iOS)";
+			productReference = F379FCE125FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F379FCE825FFE4AD008DE89B /* CurvedRectangleShapeDemo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F379FCF825FFE4AD008DE89B /* Build configuration list for PBXNativeTarget "CurvedRectangleShapeDemo (macOS)" */;
+			buildPhases = (
+				F379FCE525FFE4AD008DE89B /* Sources */,
+				F379FCE625FFE4AD008DE89B /* Frameworks */,
+				F379FCE725FFE4AD008DE89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CurvedRectangleShapeDemo (macOS)";
+			packageProductDependencies = (
+				F30D6D1F26010EB60025335E /* SwiftUIPreviewUtils */,
+				F30D6D2426010F000025335E /* SwiftUIStarterKit */,
+			);
+			productName = "CurvedRectangeShapeDemo (macOS)";
+			productReference = F379FCE925FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F379FCD525FFE4AB008DE89B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F379FCE025FFE4AD008DE89B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					F379FCE825FFE4AD008DE89B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F379FCD825FFE4AB008DE89B /* Build configuration list for PBXProject "CurvedRectangleShapeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F379FCD425FFE4AB008DE89B;
+			packageReferences = (
+				F30D6D1B26010EA70025335E /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */,
+				F30D6D2126010EF80025335E /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */,
+			);
+			productRefGroup = F379FCE225FFE4AD008DE89B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F379FCE025FFE4AD008DE89B /* CurvedRectangleShapeDemo (iOS) */,
+				F379FCE825FFE4AD008DE89B /* CurvedRectangleShapeDemo (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F379FCDF25FFE4AD008DE89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F379FD2826010B94008DE89B /* Assets.xcassets in Resources */,
+				F379FD2626010B94008DE89B /* Colors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F379FCE725FFE4AD008DE89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F379FD2926010B94008DE89B /* Assets.xcassets in Resources */,
+				F379FD2726010B94008DE89B /* Colors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F379FCDD25FFE4AD008DE89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F379FD3426010B94008DE89B /* RootView.swift in Sources */,
+				F379FD3C26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */,
+				F379FD2C26010B94008DE89B /* Trapezoid.swift in Sources */,
+				F30D6D27260110E90025335E /* WelcomeOptionsView.swift in Sources */,
+				F379FD2E26010B94008DE89B /* CGRect+Points.swift in Sources */,
+				F379FD3026010B94008DE89B /* RectangleCorner.swift in Sources */,
+				F379FCED25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */,
+				F379FD2A26010B94008DE89B /* CurvedRectangle.swift in Sources */,
+				F34BD7572601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */,
+				F34BD7522601F814002933C5 /* WelcomeSceneOption.swift in Sources */,
+				F379FD2426010B94008DE89B /* ThemeColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F379FCE525FFE4AD008DE89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F379FD3526010B94008DE89B /* RootView.swift in Sources */,
+				F379FD3D26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */,
+				F379FD2D26010B94008DE89B /* Trapezoid.swift in Sources */,
+				F30D6D28260110E90025335E /* WelcomeOptionsView.swift in Sources */,
+				F379FD2F26010B94008DE89B /* CGRect+Points.swift in Sources */,
+				F379FD3126010B94008DE89B /* RectangleCorner.swift in Sources */,
+				F379FCEE25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */,
+				F379FD2B26010B94008DE89B /* CurvedRectangle.swift in Sources */,
+				F34BD7582601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */,
+				F34BD7532601F814002933C5 /* WelcomeSceneOption.swift in Sources */,
+				F379FD2526010B94008DE89B /* ThemeColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F379FCF325FFE4AD008DE89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F379FCF425FFE4AD008DE89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F379FCF625FFE4AD008DE89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.CypherPoet.CurvedRectangeShapeDemo;
+				PRODUCT_NAME = CurvedRectangleShapeDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F379FCF725FFE4AD008DE89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.CypherPoet.CurvedRectangeShapeDemo;
+				PRODUCT_NAME = CurvedRectangleShapeDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F379FCF925FFE4AD008DE89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.CypherPoet.CurvedRectangeShapeDemo;
+				PRODUCT_NAME = CurvedRectangleShapeDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F379FCFA25FFE4AD008DE89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.CypherPoet.CurvedRectangeShapeDemo;
+				PRODUCT_NAME = CurvedRectangleShapeDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F379FCD825FFE4AB008DE89B /* Build configuration list for PBXProject "CurvedRectangleShapeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F379FCF325FFE4AD008DE89B /* Debug */,
+				F379FCF425FFE4AD008DE89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F379FCF525FFE4AD008DE89B /* Build configuration list for PBXNativeTarget "CurvedRectangleShapeDemo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F379FCF625FFE4AD008DE89B /* Debug */,
+				F379FCF725FFE4AD008DE89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F379FCF825FFE4AD008DE89B /* Build configuration list for PBXNativeTarget "CurvedRectangleShapeDemo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F379FCF925FFE4AD008DE89B /* Debug */,
+				F379FCFA25FFE4AD008DE89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F30D6D1B26010EA70025335E /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIPreviewUtils";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.6;
+			};
+		};
+		F30D6D2126010EF80025335E /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIStarterKit";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.52;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F30D6D1C26010EA70025335E /* SwiftUIPreviewUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30D6D1B26010EA70025335E /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */;
+			productName = SwiftUIPreviewUtils;
+		};
+		F30D6D1F26010EB60025335E /* SwiftUIPreviewUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30D6D1B26010EA70025335E /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */;
+			productName = SwiftUIPreviewUtils;
+		};
+		F30D6D2226010EF80025335E /* SwiftUIStarterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30D6D2126010EF80025335E /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */;
+			productName = SwiftUIStarterKit;
+		};
+		F30D6D2426010F000025335E /* SwiftUIStarterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30D6D2126010EF80025335E /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */;
+			productName = SwiftUIStarterKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F379FCD525FFE4AB008DE89B /* Project object */;
+}

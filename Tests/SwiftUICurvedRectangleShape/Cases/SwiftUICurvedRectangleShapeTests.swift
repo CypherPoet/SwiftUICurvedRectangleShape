@@ -1,7 +1,7 @@
 import XCTest
-@testable import MyLibrary
+@testable import SwiftUICurvedRectangleShape
 
-final class MyLibraryTests: XCTestCase {
+final class SwiftUICurvedRectangleShapeTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
