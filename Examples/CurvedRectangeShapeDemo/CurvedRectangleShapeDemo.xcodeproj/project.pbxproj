@@ -49,7 +49,6 @@
 		F379FCE925FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurvedRectangleShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F379FCEB25FFE4AD008DE89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F379FCEC25FFE4AD008DE89B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		F379FCFB25FFE4D8008DE89B /* SwiftUICurvedRectangleShape */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftUICurvedRectangleShape; path = ../..; sourceTree = "<group>"; };
 		F379FD1026010B94008DE89B /* ThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
 		F379FD1326010B94008DE89B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F379FD1426010B94008DE89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,7 +100,6 @@
 		F379FCD425FFE4AB008DE89B = {
 			isa = PBXGroup;
 			children = (
-				F379FCFB25FFE4D8008DE89B /* SwiftUICurvedRectangleShape */,
 				F379FCE325FFE4AD008DE89B /* iOS */,
 				F379FCEA25FFE4AD008DE89B /* macOS */,
 				F379FCE225FFE4AD008DE89B /* Products */,

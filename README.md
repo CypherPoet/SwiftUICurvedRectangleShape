@@ -79,13 +79,13 @@ Then simply `import SwiftUICurvedRectangleShape` wherever you’d like to use th
 
 <!--
 ## Usage
-
+-->
 
 
 ## 🗺 Roadmap
 
-- World Domination
- -->
+- Support being able to make smoother curves at each corner.
+ 
 
 
 ## Contributing

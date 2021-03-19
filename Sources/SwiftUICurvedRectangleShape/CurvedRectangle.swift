@@ -263,26 +263,31 @@ struct CurveSidedRectangle_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             CurvedRectangle(curveAxis: .horizontal)
+                .previewDisplayName("Horizontal Axis: Default")
             
             CurvedRectangle(
                 curveAxis: .horizontal,
                 leadingDepthPercentage: 25,
                 trailingDepthPercentage: 25
             )
+            .previewDisplayName("Horizontal Axis: Both positive")
             
             CurvedRectangle(
                 curveAxis: .horizontal,
                 leadingDepthPercentage: -25,
                 trailingDepthPercentage: -25
             )
+            .previewDisplayName("Horizontal Axis: Both negative")
+
             
             CurvedRectangle(
                 curveAxis: .horizontal,
                 trailingDepthPercentage: 25
             )
             .stroke(Color.blue, lineWidth: 2.0)
+            .previewDisplayName("Horizontal Axis: Positive Trailing Only")
         }
-        .border(Color.yellow, width: 4)
+//        .border(Color.yellow, width: 4)
         .padding(40)
         .frame(height: 200)
         .previewLayout(.sizeThatFits)
@@ -310,7 +315,7 @@ struct CurveSidedRectangle_Previews: PreviewProvider {
             )
             .stroke(Color.blue, lineWidth: 2.0)
         }
-        .border(Color.yellow, width: 4)
+//        .border(Color.yellow, width: 4)
         .padding(40)
         .frame(height: 200)
         .previewLayout(.sizeThatFits)
