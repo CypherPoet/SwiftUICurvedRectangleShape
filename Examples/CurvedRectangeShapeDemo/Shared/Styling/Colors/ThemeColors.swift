@@ -24,5 +24,6 @@ extension Color {
         static let secondaryAccent1 = Color("Theme2-SecondaryAccent1")
         static let secondaryAccent2 = Color("Theme2-SecondaryAccent2")
         static let secondaryAccent3 = Color("Theme2-SecondaryAccent3")
+        static let background1 = Color("Theme2-Background1")
     }
 }

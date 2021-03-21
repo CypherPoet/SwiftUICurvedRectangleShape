@@ -37,6 +37,8 @@
 		F379FD3526010B94008DE89B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1F26010B94008DE89B /* RootView.swift */; };
 		F379FD3C26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */; };
 		F379FD3D26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */; };
+		F3DBE6FF260517C700F55F0E /* ClippingExamplesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBE6FE260517C700F55F0E /* ClippingExamplesViewer.swift */; };
+		F3DBE700260517C700F55F0E /* ClippingExamplesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBE6FE260517C700F55F0E /* ClippingExamplesViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,7 @@
 		F379FD1C26010B94008DE89B /* RectangleCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleCorner.swift; sourceTree = "<group>"; };
 		F379FD1F26010B94008DE89B /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSceneViewer.swift; sourceTree = "<group>"; };
+		F3DBE6FE260517C700F55F0E /* ClippingExamplesViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippingExamplesViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,8 +221,9 @@
 		F379FD1D26010B94008DE89B /* Scene Views */ = {
 			isa = PBXGroup;
 			children = (
-				F34BD7552601FFC1002933C5 /* Shaping */,
 				F379FD1F26010B94008DE89B /* RootView.swift */,
+				F3DBE6FD260517B500F55F0E /* Clipping */,
+				F34BD7552601FFC1002933C5 /* Shaping */,
 				F379FD3A26010C6A008DE89B /* Welcome */,
 			);
 			path = "Scene Views";
@@ -233,6 +237,14 @@
 				F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		F3DBE6FD260517B500F55F0E /* Clipping */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBE6FE260517C700F55F0E /* ClippingExamplesViewer.swift */,
+			);
+			path = Clipping;
 			sourceTree = "<group>";
 		};
 		F3E0AA6126036EFB00C101C7 /* Gradients */ = {
@@ -363,6 +375,7 @@
 				F379FD2A26010B94008DE89B /* CurvedRectangle.swift in Sources */,
 				F34BD7572601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */,
 				F34BD7522601F814002933C5 /* WelcomeSceneOption.swift in Sources */,
+				F3DBE6FF260517C700F55F0E /* ClippingExamplesViewer.swift in Sources */,
 				F379FD2426010B94008DE89B /* ThemeColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +394,7 @@
 				F379FD2B26010B94008DE89B /* CurvedRectangle.swift in Sources */,
 				F34BD7582601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */,
 				F34BD7532601F814002933C5 /* WelcomeSceneOption.swift in Sources */,
+				F3DBE700260517C700F55F0E /* ClippingExamplesViewer.swift in Sources */,
 				F379FD2526010B94008DE89B /* ThemeColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -630,7 +644,7 @@
 			repositoryURL = "https://github.com/CypherPoet/SwiftUIPreviewUtils";
 			requirement = {
 				kind = exactVersion;
-				version = 0.0.6;
+				version = 0.0.7;
 			};
 		};
 		F30D6D2126010EF80025335E /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */ = {

@@ -35,7 +35,7 @@ extension WelcomeSceneViewer: View {
             footerSection
         }
         .navigationBarHidden(true)
-        .background(Color(.systemGroupedBackground))
+        .background(Color.Theme2.background1)
         .edgesIgnoringSafeArea(.vertical)
         .readingFrameSize { newSize in
             screenHeight = newSize.height
@@ -68,13 +68,14 @@ private extension WelcomeSceneViewer {
                         trailingDepthPercentage: 14
                     )
                 )
-                .shadow(radius: baseFontSize * 0.8)
+                .shadow(color: .black, radius: baseFontSize * 0.8)
                 
             
-            Text("Welcome!")
+            Text("Curved Rectangle")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
+                .padding(.horizontal)
         }
     }
     
@@ -84,7 +85,7 @@ private extension WelcomeSceneViewer {
             curveAxis: .vertical,
             leadingDepthPercentage: 24
         )
-        .fill(Color.Theme2.primaryAccent)
+        .fill(Color.Theme2.secondaryAccent3)
         .frame(height: headerHeight * 0.5)
         .shadow(radius: baseFontSize)
     }
@@ -100,7 +101,7 @@ private extension WelcomeSceneViewer {
         case .shaping:
             ShapingExamplesViewer()
         case .clipping:
-            Text("clipping all the things")
+            ClippingExamplesViewer()
         case .layering:
             Text("layering all the things")
         case .animating:
@@ -111,7 +112,11 @@ private extension WelcomeSceneViewer {
 
 
 #if DEBUG
+
 // MARK: - Preview
+
+import SwiftUIPreviewUtils
+
 struct CurveSidedRectangleViewer_Previews: PreviewProvider {
 
     static var previews: some View {
@@ -119,6 +124,8 @@ struct CurveSidedRectangleViewer_Previews: PreviewProvider {
             WelcomeSceneViewer()
         }
         .accentColor(.Theme2.primaryAccent)
+        .previewInColorSchemes()
     }
 }
+
 #endif
