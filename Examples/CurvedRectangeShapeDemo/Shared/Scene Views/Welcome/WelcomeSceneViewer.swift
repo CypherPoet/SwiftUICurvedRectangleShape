@@ -105,7 +105,7 @@ private extension WelcomeSceneViewer {
         case .layering:
             LayeringExamplesViewer()
         case .animating:
-            Text("animating all the things")
+            AnimationExamplesViewer()
         }
     }
 }

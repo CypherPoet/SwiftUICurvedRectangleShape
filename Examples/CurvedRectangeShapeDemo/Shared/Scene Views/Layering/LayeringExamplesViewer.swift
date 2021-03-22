@@ -46,7 +46,7 @@ extension LayeringExamplesViewer: View {
 
 // MARK: - Computeds
 extension LayeringExamplesViewer {
-    var headerHeight: CGFloat { baseFontSize * 4.5 }
+    var headerHeight: CGFloat { baseFontSize * 7 }
 }
 
 
@@ -74,57 +74,6 @@ private extension LayeringExamplesViewer {
     }
 }
 
-
-struct LayeredBackgroundView {
-    var layerCount: Int = 20
-    var totalHeight: CGFloat
-}
-
-
-extension LayeredBackgroundView: View {
-    
-    var body: some View {
-        ZStack(alignment: .bottom) {
-            backgroundGradient
-            
-            ForEach(0..<layerCount, id: \.self) { index in
-                CurvedRectangle(
-                    leadingDepthPercentage: CGFloat(
-                        80 *
-                        (CGFloat(index) / CGFloat(layerCount))
-                    )
-                )
-                .fill(Color.Theme2.secondaryAccent1)
-                .opacity(opacityScalar * Double(index))
-                .frame(
-                    height: totalHeight - (heightReductionScalar * CGFloat(index)),
-                    alignment: .center
-                )
-            }
-        }
-    }
-    
-    
-    var heightReductionScalar: CGFloat {
-        totalHeight / CGFloat(layerCount)
-    }
-    
-    
-    var opacityScalar: Double {
-//        (1.0 / Double(layerCount)) * 0.9
-        (0.35 / Double(layerCount))
-    }
-    
-    
-    var backgroundGradient: LinearGradient {
-        LinearGradient(
-            .Theme2.background1,
-            .Theme2.secondaryAccent2,
-            from: .top,
-            to: .bottom
-        )
-    }
-}
 
 
 #if DEBUG

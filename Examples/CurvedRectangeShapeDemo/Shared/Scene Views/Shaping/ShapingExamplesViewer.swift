@@ -29,6 +29,8 @@ extension ShapingExamplesViewer: View {
                     otherNotesSection
                 }
                 .padding(.horizontal)
+                .padding(.top)
+                .foregroundColor(.Theme2.secondaryAccent3)
             }
         }
         .edgesIgnoringSafeArea(.top)
@@ -53,7 +55,7 @@ private extension ShapingExamplesViewer {
             curveAxis: .vertical,
             trailingDepthPercentage: 10
         )
-        .fill(Color.Theme2.secondaryAccent2)
+        .fill(Color.Theme2.background1)
         .shadow(color: Color.Theme2.secondaryAccent2.opacity(0.7), radius: baseFontSize)
         .overlay(
             Text("Customization Options")
@@ -61,7 +63,11 @@ private extension ShapingExamplesViewer {
                 .fontWeight(.heavy)
                 .shadow(color: .primary.opacity(0.24), radius: baseFontSize * 0.5, x: 1, y: 2.5)
                 .padding(.horizontal)
+                .padding(.top)
+                .padding(.top)
                 .multilineTextAlignment(.center)
+                .foregroundColor(.white)
+                .blendMode(.sourceAtop)
         )
         .frame(height: headerHeight)
     }
@@ -96,6 +102,7 @@ private extension ShapingExamplesViewer {
                         trailingDepthPercentage: 10
                     )
                 }
+                .padding(.horizontal)
             }
         }
     }
@@ -123,12 +130,12 @@ private extension ShapingExamplesViewer {
                     
                     HStack(spacing: baseFontSize) {
                         ExampleCurveView(
-                            title: "Horizontal - 21% Leading",
+                            title: "Horizontal Axis",
                             curveAxis: .horizontal,
                             leadingDepthPercentage: 21
                         )
                         ExampleCurveView(
-                            title: "21%",
+                            title: "Vertical Axis",
                             curveAxis: .vertical,
                             leadingDepthPercentage: 21
                         )
@@ -143,12 +150,12 @@ private extension ShapingExamplesViewer {
                     
                     HStack(spacing: baseFontSize) {
                         ExampleCurveView(
-                            title: "21%",
+                            title: "Horizontal Axis",
                             curveAxis: .horizontal,
                             trailingDepthPercentage: 21
                         )
                         ExampleCurveView(
-                            title: "21%",
+                            title: "Vertical Axis",
                             curveAxis: .vertical,
                             trailingDepthPercentage: 21
                         )
@@ -162,13 +169,13 @@ private extension ShapingExamplesViewer {
                     
                     HStack(spacing: baseFontSize) {
                         ExampleCurveView(
-                            title: "21%",
+                            title: "Horizontal Axis",
                             curveAxis: .horizontal,
                             leadingDepthPercentage: 21,
                             trailingDepthPercentage: 21
                         )
                         ExampleCurveView(
-                            title: "21%",
+                            title: "Vertical Axis",
                             curveAxis: .vertical,
                             leadingDepthPercentage: 21,
                             trailingDepthPercentage: 21
@@ -296,7 +303,7 @@ private extension ShapingExamplesViewer {
         var curveAxis: Axis = .vertical
         var leadingDepthPercentage: CGFloat = 0
         var trailingDepthPercentage: CGFloat = 0
-        var fillColor: Color = .pink
+        var fillColor: Color = .Theme2.primaryAccent
         
         
         var body: some View {
@@ -308,6 +315,9 @@ private extension ShapingExamplesViewer {
                 )
                 .overlay(
                     Text(title)
+                        .font(.title3)
+                        .fontWeight(.medium)
+                        .foregroundColor(.primary)
                         .padding()
                 )
                 .frame(height: rectangleHeight)
