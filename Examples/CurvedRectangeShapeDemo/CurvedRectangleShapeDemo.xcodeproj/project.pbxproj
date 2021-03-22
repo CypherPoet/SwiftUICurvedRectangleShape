@@ -13,6 +13,8 @@
 		F30D6D2526010F000025335E /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F30D6D2426010F000025335E /* SwiftUIStarterKit */; };
 		F30D6D27260110E90025335E /* WelcomeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D6D26260110E90025335E /* WelcomeOptionsView.swift */; };
 		F30D6D28260110E90025335E /* WelcomeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D6D26260110E90025335E /* WelcomeOptionsView.swift */; };
+		F33875872607970400317786 /* LayeringExamplesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33875862607970400317786 /* LayeringExamplesViewer.swift */; };
+		F33875882607970400317786 /* LayeringExamplesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33875862607970400317786 /* LayeringExamplesViewer.swift */; };
 		F34BD7522601F814002933C5 /* WelcomeSceneOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */; };
 		F34BD7532601F814002933C5 /* WelcomeSceneOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */; };
 		F34BD7572601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7562601FFF6002933C5 /* ShapingExamplesViewer.swift */; };
@@ -43,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		F30D6D26260110E90025335E /* WelcomeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeOptionsView.swift; sourceTree = "<group>"; };
+		F33875862607970400317786 /* LayeringExamplesViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeringExamplesViewer.swift; sourceTree = "<group>"; };
 		F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneOption.swift; sourceTree = "<group>"; };
 		F34BD7562601FFF6002933C5 /* ShapingExamplesViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapingExamplesViewer.swift; sourceTree = "<group>"; };
 		F379FCDA25FFE4AB008DE89B /* CurvedRectangleShapeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedRectangleShapeDemo.swift; sourceTree = "<group>"; };
@@ -90,6 +93,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3387585260796F000317786 /* Layering */ = {
+			isa = PBXGroup;
+			children = (
+				F33875862607970400317786 /* LayeringExamplesViewer.swift */,
+			);
+			path = Layering;
 			sourceTree = "<group>";
 		};
 		F34BD7552601FFC1002933C5 /* Shaping */ = {
@@ -221,6 +232,7 @@
 		F379FD1D26010B94008DE89B /* Scene Views */ = {
 			isa = PBXGroup;
 			children = (
+				F3387585260796F000317786 /* Layering */,
 				F379FD1F26010B94008DE89B /* RootView.swift */,
 				F3DBE6FD260517B500F55F0E /* Clipping */,
 				F34BD7552601FFC1002933C5 /* Shaping */,
@@ -373,6 +385,7 @@
 				F379FD3026010B94008DE89B /* RectangleCorner.swift in Sources */,
 				F379FCED25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */,
 				F379FD2A26010B94008DE89B /* CurvedRectangle.swift in Sources */,
+				F33875872607970400317786 /* LayeringExamplesViewer.swift in Sources */,
 				F34BD7572601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */,
 				F34BD7522601F814002933C5 /* WelcomeSceneOption.swift in Sources */,
 				F3DBE6FF260517C700F55F0E /* ClippingExamplesViewer.swift in Sources */,
@@ -392,6 +405,7 @@
 				F379FD3126010B94008DE89B /* RectangleCorner.swift in Sources */,
 				F379FCEE25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */,
 				F379FD2B26010B94008DE89B /* CurvedRectangle.swift in Sources */,
+				F33875882607970400317786 /* LayeringExamplesViewer.swift in Sources */,
 				F34BD7582601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */,
 				F34BD7532601F814002933C5 /* WelcomeSceneOption.swift in Sources */,
 				F3DBE700260517C700F55F0E /* ClippingExamplesViewer.swift in Sources */,
@@ -644,7 +658,7 @@
 			repositoryURL = "https://github.com/CypherPoet/SwiftUIPreviewUtils";
 			requirement = {
 				kind = exactVersion;
-				version = 0.0.7;
+				version = 0.0.8;
 			};
 		};
 		F30D6D2126010EF80025335E /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */ = {

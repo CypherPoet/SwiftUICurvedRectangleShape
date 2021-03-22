@@ -103,7 +103,7 @@ private extension WelcomeSceneViewer {
         case .clipping:
             ClippingExamplesViewer()
         case .layering:
-            Text("layering all the things")
+            LayeringExamplesViewer()
         case .animating:
             Text("animating all the things")
         }
