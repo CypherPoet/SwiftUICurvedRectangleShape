@@ -77,9 +77,12 @@ targets: [
 
 Then simply `import SwiftUICurvedRectangleShape` wherever you’d like to use the `CurvedRectangle` type.
 
-<!--
 ## Usage
--->
+
+Full documentation for `SwiftUICurvedRectangleShape` can be found [here](https://cypherpoet.github.io/SwiftUICurvedRectangleShape/). 
+
+Furthermore, the [demo app](./Examples/CurvedRectangeShapeDemo) contains a number of examples and 
+explanations of how it can be used in practice. 
 
 
 ## 🗺 Roadmap
