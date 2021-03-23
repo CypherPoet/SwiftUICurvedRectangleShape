@@ -47,7 +47,7 @@ extension ClippingExamplesViewer {
 private extension ClippingExamplesViewer {
     
     var headerSection: some View {
-        Image("Clips")
+        ImageAssets.clips
             .resizable()
             .scaledToFill()
             .frame(height: headerHeight)
@@ -92,7 +92,7 @@ extension ClippingExamplesViewer.ImageCollageView: View {
     
     var body: some View {
         VStack {
-            Image("NightSky1")
+            ImageAssets.nightSky1
                 .resizable()
                 .scaledToFill()
                 .frame(height: 200, alignment: .center)
@@ -107,7 +107,7 @@ extension ClippingExamplesViewer.ImageCollageView: View {
                 .padding(.horizontal)
             
             
-            Image("Mountain")
+            ImageAssets.mountain
                 .resizable(
                     capInsets: .init(
                         top: 40,
@@ -128,7 +128,7 @@ extension ClippingExamplesViewer.ImageCollageView: View {
                 )
                 .padding(.horizontal)
             
-            Image("NightSky2")
+            ImageAssets.nightSky2
                 .resizable()
                 .scaledToFill()
                 .frame(height: 200, alignment: .center)

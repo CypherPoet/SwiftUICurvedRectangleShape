@@ -58,7 +58,7 @@ private extension WelcomeSceneViewer {
     
     var headerSection: some View {
         ZStack {
-            Image("EarthAtNight")
+            ImageAssets.earthAtNight
                 .resizable()
                 .scaledToFill()
                 .frame(height: headerHeight)

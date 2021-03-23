@@ -3,7 +3,7 @@
 <!-- Header Logo -->
 
 <!-- <div align="center">
-   <img width="600px" src="./Resources/Assets/banner-logo.png" alt="Banner Logo">
+   <img width="600px" src="./Extras/banner-logo.png" alt="Banner Logo">
 </div> -->
 
 
@@ -79,16 +79,16 @@ Then simply `import SwiftUICurvedRectangleShape` wherever you’d like to use th
 
 ## Usage
 
-Full documentation for `SwiftUICurvedRectangleShape` can be found [here](https://cypherpoet.github.io/SwiftUICurvedRectangleShape/). 
+Full documentation for `SwiftUICurvedRectangleShape` can be found [here](https://cypherpoet.github.io/SwiftUICurvedRectangleShape/).
 
-Furthermore, the [demo app](./Examples/CurvedRectangeShapeDemo) contains a number of examples and 
-explanations of how it can be used in practice. 
+Furthermore, the [demo app](./Examples/CurvedRectangeShapeDemo) contains a number of examples and
+explanations of how it can be used in practice.
 
 
 ## 🗺 Roadmap
 
 - Support being able to make smoother curves at each corner.
- 
+
 
 
 ## Contributing
