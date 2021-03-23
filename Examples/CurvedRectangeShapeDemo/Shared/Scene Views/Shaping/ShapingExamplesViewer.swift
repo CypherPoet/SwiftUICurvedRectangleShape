@@ -30,7 +30,7 @@ extension ShapingExamplesViewer: View {
                 }
                 .padding(.horizontal)
                 .padding(.top)
-                .foregroundColor(.Theme2.secondaryAccent3)
+                .foregroundColor(ThemeColors.secondaryAccent3)
             }
         }
         .edgesIgnoringSafeArea(.top)
@@ -55,8 +55,8 @@ private extension ShapingExamplesViewer {
             curveAxis: .vertical,
             trailingDepthPercentage: 10
         )
-        .fill(Color.Theme2.background1)
-        .shadow(color: Color.Theme2.secondaryAccent2.opacity(0.7), radius: baseFontSize)
+        .fill(ThemeColors.background1)
+        .shadow(color: ThemeColors.secondaryAccent2.opacity(0.7), radius: baseFontSize)
         .overlay(
             Text("Customization Options")
                 .font(.largeTitle)
@@ -303,7 +303,7 @@ private extension ShapingExamplesViewer {
         var curveAxis: Axis = .vertical
         var leadingDepthPercentage: CGFloat = 0
         var trailingDepthPercentage: CGFloat = 0
-        var fillColor: Color = .Theme2.primaryAccent
+        var fillColor: Color = ThemeColors.primaryAccent
         
         
         var body: some View {

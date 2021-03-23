@@ -27,6 +27,8 @@
 		F338759A2609007600317786 /* ButtonStyles+FilledCallToActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33875952609007400317786 /* ButtonStyles+FilledCallToActionButton.swift */; };
 		F338759B2609007600317786 /* ButtonStyles+OutlinedCallToAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33875962609007500317786 /* ButtonStyles+OutlinedCallToAction.swift */; };
 		F338759C2609007600317786 /* ButtonStyles+OutlinedCallToAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33875962609007500317786 /* ButtonStyles+OutlinedCallToAction.swift */; };
+		F338759F26092BB600317786 /* SwiftUIShapeDemoUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F338759E26092BB600317786 /* SwiftUIShapeDemoUtils */; };
+		F33875A126092BBD00317786 /* SwiftUIShapeDemoUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F33875A026092BBD00317786 /* SwiftUIShapeDemoUtils */; };
 		F34BD7522601F814002933C5 /* WelcomeSceneOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */; };
 		F34BD7532601F814002933C5 /* WelcomeSceneOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7512601F814002933C5 /* WelcomeSceneOption.swift */; };
 		F34BD7572601FFF6002933C5 /* ShapingExamplesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD7562601FFF6002933C5 /* ShapingExamplesViewer.swift */; };
@@ -35,8 +37,6 @@
 		F379FCEE25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FCDA25FFE4AB008DE89B /* CurvedRectangleShapeDemo.swift */; };
 		F379FD2426010B94008DE89B /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1026010B94008DE89B /* ThemeColors.swift */; };
 		F379FD2526010B94008DE89B /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1026010B94008DE89B /* ThemeColors.swift */; };
-		F379FD2626010B94008DE89B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1326010B94008DE89B /* Colors.xcassets */; };
-		F379FD2726010B94008DE89B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1326010B94008DE89B /* Colors.xcassets */; };
 		F379FD2826010B94008DE89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1426010B94008DE89B /* Assets.xcassets */; };
 		F379FD2926010B94008DE89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1426010B94008DE89B /* Assets.xcassets */; };
 		F379FD2A26010B94008DE89B /* CurvedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1626010B94008DE89B /* CurvedRectangle.swift */; };
@@ -73,7 +73,6 @@
 		F379FCEB25FFE4AD008DE89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F379FCEC25FFE4AD008DE89B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F379FD1026010B94008DE89B /* ThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
-		F379FD1326010B94008DE89B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F379FD1426010B94008DE89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F379FD1626010B94008DE89B /* CurvedRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedRectangle.swift; sourceTree = "<group>"; };
 		F379FD1726010B94008DE89B /* Trapezoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
@@ -90,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30D6D1D26010EA70025335E /* SwiftUIPreviewUtils in Frameworks */,
+				F338759F26092BB600317786 /* SwiftUIShapeDemoUtils in Frameworks */,
 				F30D6D2326010EF80025335E /* SwiftUIStarterKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30D6D2026010EB60025335E /* SwiftUIPreviewUtils in Frameworks */,
+				F33875A126092BBD00317786 /* SwiftUIShapeDemoUtils in Frameworks */,
 				F30D6D2526010F000025335E /* SwiftUIStarterKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +228,6 @@
 		F379FD1226010B94008DE89B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F379FD1326010B94008DE89B /* Colors.xcassets */,
 				F379FD1426010B94008DE89B /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -325,6 +325,7 @@
 			packageProductDependencies = (
 				F30D6D1C26010EA70025335E /* SwiftUIPreviewUtils */,
 				F30D6D2226010EF80025335E /* SwiftUIStarterKit */,
+				F338759E26092BB600317786 /* SwiftUIShapeDemoUtils */,
 			);
 			productName = "CurvedRectangeShapeDemo (iOS)";
 			productReference = F379FCE125FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */;
@@ -346,6 +347,7 @@
 			packageProductDependencies = (
 				F30D6D1F26010EB60025335E /* SwiftUIPreviewUtils */,
 				F30D6D2426010F000025335E /* SwiftUIStarterKit */,
+				F33875A026092BBD00317786 /* SwiftUIShapeDemoUtils */,
 			);
 			productName = "CurvedRectangeShapeDemo (macOS)";
 			productReference = F379FCE925FFE4AD008DE89B /* CurvedRectangleShapeDemo.app */;
@@ -397,7 +399,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F379FD2826010B94008DE89B /* Assets.xcassets in Resources */,
-				F379FD2626010B94008DE89B /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +407,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F379FD2926010B94008DE89B /* Assets.xcassets in Resources */,
-				F379FD2726010B94008DE89B /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,6 +743,14 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F30D6D2126010EF80025335E /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */;
 			productName = SwiftUIStarterKit;
+		};
+		F338759E26092BB600317786 /* SwiftUIShapeDemoUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIShapeDemoUtils;
+		};
+		F33875A026092BBD00317786 /* SwiftUIShapeDemoUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIShapeDemoUtils;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

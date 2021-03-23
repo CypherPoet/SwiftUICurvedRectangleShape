@@ -35,7 +35,7 @@ extension WelcomeSceneViewer: View {
             footerSection
         }
         .navigationBarHidden(true)
-        .background(Color.Theme2.background1)
+        .background(ThemeColors.background1)
         .edgesIgnoringSafeArea(.vertical)
         .readingFrameSize { newSize in
             screenHeight = newSize.height
@@ -85,7 +85,7 @@ private extension WelcomeSceneViewer {
             curveAxis: .vertical,
             leadingDepthPercentage: 24
         )
-        .fill(Color.Theme2.secondaryAccent3)
+        .fill(ThemeColors.secondaryAccent3)
         .frame(height: headerHeight * 0.5)
         .shadow(radius: baseFontSize)
     }
@@ -123,7 +123,7 @@ struct CurveSidedRectangleViewer_Previews: PreviewProvider {
         NavigationView {
             WelcomeSceneViewer()
         }
-        .accentColor(.Theme2.primaryAccent)
+        .accentColor(ThemeColors.primaryAccent)
         .previewInColorSchemes()
     }
 }

@@ -30,7 +30,7 @@ extension ClippingExamplesViewer: View {
                 
                 Spacer()
             }
-            .background(Color.Theme2.background1)
+            .background(ThemeColors.background1)
         }
         .edgesIgnoringSafeArea(.vertical)
     }
@@ -75,7 +75,7 @@ private extension ClippingExamplesViewer {
             
             Text("This can be especially useful for images that might not otherwise conform to our... geometrical gestalt.")
         }
-        .foregroundColor(.Theme2.secondaryAccent3)
+        .foregroundColor(ThemeColors.secondaryAccent3)
     }
 }
 

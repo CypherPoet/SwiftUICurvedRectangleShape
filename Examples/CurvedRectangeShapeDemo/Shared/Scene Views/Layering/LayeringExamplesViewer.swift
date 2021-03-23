@@ -57,7 +57,7 @@ private extension LayeringExamplesViewer {
         CurvedRectangle(
             trailingDepthPercentage: 12
         )
-        .fill(Color.Theme2.background1)
+        .fill(ThemeColors.background1)
         .frame(height: headerHeight)
         .shadow(radius: baseFontSize * 0.74)
     }
@@ -70,7 +70,7 @@ private extension LayeringExamplesViewer {
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
         }
-        .foregroundColor(.Theme2.secondaryAccent3)
+        .foregroundColor(ThemeColors.secondaryAccent3)
     }
 }
 

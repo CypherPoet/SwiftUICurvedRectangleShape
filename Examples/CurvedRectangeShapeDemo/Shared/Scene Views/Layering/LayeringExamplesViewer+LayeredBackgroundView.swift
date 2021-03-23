@@ -33,7 +33,7 @@ extension LayeredBackgroundView: View {
                         (CGFloat(index) / CGFloat(layerCount))
                     )
                 )
-                .fill(Color.Theme2.secondaryAccent1)
+                .fill(ThemeColors.secondaryAccent1)
                 .opacity(opacityScalar * Double(index))
                 .frame(
                     height: totalHeight - (heightReductionScalar * CGFloat(index)),

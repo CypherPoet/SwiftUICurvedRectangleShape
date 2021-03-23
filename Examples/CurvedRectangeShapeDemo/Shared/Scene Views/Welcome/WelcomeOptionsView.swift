@@ -78,7 +78,7 @@ extension WelcomeOptionCardView: View {
             leadingDepthPercentage: -20,
             trailingDepthPercentage: 20
         )
-        .fill(Color.Theme2.primaryAccent)
+        .fill(ThemeColors.primaryAccent)
         .shadow(radius: baseFontSize * 0.7)
         .overlay(
             Text(title)
@@ -100,7 +100,7 @@ struct WelcomeOptionsView_Previews: PreviewProvider {
         WelcomeOptionsView(
             buildDestination: { _ in EmptyView() }
         )
-        .accentColor(.Theme2.primaryAccent)
+        .accentColor(ThemeColors.primaryAccent)
         .previewLayout(.sizeThatFits)
     }
 }

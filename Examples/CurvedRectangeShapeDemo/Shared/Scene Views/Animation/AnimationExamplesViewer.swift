@@ -67,7 +67,7 @@ private extension AnimationExamplesViewer {
         CurvedRectangle(
             trailingDepthPercentage: 12
         )
-        .fill(Color.Theme2.background1)
+        .fill(ThemeColors.background1)
         .frame(height: headerHeight)
         .shadow(radius: baseFontSize * 0.74)
     }
@@ -93,7 +93,7 @@ private extension AnimationExamplesViewer {
             
             Text("As a `Shape`, CurvedRectangle adopts the Animatable protocol by setting its leading and trailing curve offset amounts as \"animatable data.\"")
         }
-        .foregroundColor(.Theme2.secondaryAccent3)
+        .foregroundColor(ThemeColors.secondaryAccent3)
     }
     
     
@@ -140,7 +140,7 @@ struct AnimationExamplesViewer_Previews: PreviewProvider {
         AnimationExamplesViewer()
             .openedFromNavigationLink(startsActive: true)
             .previewInColorSchemes(withLayout: .device)
-            .accentColor(.Theme2.primaryAccent)
+            .accentColor(ThemeColors.primaryAccent)
     }
 }
 #endif

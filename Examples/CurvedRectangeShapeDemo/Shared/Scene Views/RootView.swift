@@ -20,7 +20,7 @@ extension RootView: View {
         NavigationView {
             WelcomeSceneViewer()
         }
-        .accentColor(.Theme2.primaryAccent)
+        .accentColor(ThemeColors.primaryAccent)
     }
 }
 
