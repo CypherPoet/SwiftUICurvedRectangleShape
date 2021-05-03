@@ -38,14 +38,6 @@
 		F379FD2526010B94008DE89B /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1026010B94008DE89B /* ThemeColors.swift */; };
 		F379FD2826010B94008DE89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1426010B94008DE89B /* Assets.xcassets */; };
 		F379FD2926010B94008DE89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F379FD1426010B94008DE89B /* Assets.xcassets */; };
-		F379FD2A26010B94008DE89B /* CurvedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1626010B94008DE89B /* CurvedRectangle.swift */; };
-		F379FD2B26010B94008DE89B /* CurvedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1626010B94008DE89B /* CurvedRectangle.swift */; };
-		F379FD2C26010B94008DE89B /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1726010B94008DE89B /* Trapezoid.swift */; };
-		F379FD2D26010B94008DE89B /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1726010B94008DE89B /* Trapezoid.swift */; };
-		F379FD2E26010B94008DE89B /* CGRect+Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1B26010B94008DE89B /* CGRect+Points.swift */; };
-		F379FD2F26010B94008DE89B /* CGRect+Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1B26010B94008DE89B /* CGRect+Points.swift */; };
-		F379FD3026010B94008DE89B /* RectangleCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1C26010B94008DE89B /* RectangleCorner.swift */; };
-		F379FD3126010B94008DE89B /* RectangleCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1C26010B94008DE89B /* RectangleCorner.swift */; };
 		F379FD3426010B94008DE89B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1F26010B94008DE89B /* RootView.swift */; };
 		F379FD3526010B94008DE89B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD1F26010B94008DE89B /* RootView.swift */; };
 		F379FD3C26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */; };
@@ -76,10 +68,6 @@
 		F379FCEC25FFE4AD008DE89B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F379FD1026010B94008DE89B /* ThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
 		F379FD1426010B94008DE89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F379FD1626010B94008DE89B /* CurvedRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedRectangle.swift; sourceTree = "<group>"; };
-		F379FD1726010B94008DE89B /* Trapezoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
-		F379FD1B26010B94008DE89B /* CGRect+Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Points.swift"; sourceTree = "<group>"; };
-		F379FD1C26010B94008DE89B /* RectangleCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleCorner.swift; sourceTree = "<group>"; };
 		F379FD1F26010B94008DE89B /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		F379FD3B26010CA3008DE89B /* WelcomeSceneViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSceneViewer.swift; sourceTree = "<group>"; };
 		F39FB978260A008E008DA069 /* ImageAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
@@ -169,7 +157,6 @@
 				F379FCDA25FFE4AB008DE89B /* CurvedRectangleShapeDemo.swift */,
 				F379FD1226010B94008DE89B /* Resources */,
 				F379FD1D26010B94008DE89B /* Scene Views */,
-				F379FD1526010B94008DE89B /* Shape Components */,
 				F379FD0E26010B94008DE89B /* Styling */,
 				F379FD1826010B94008DE89B /* Toolbox */,
 				F379FD1126010B94008DE89B /* View Components */,
@@ -237,38 +224,11 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		F379FD1526010B94008DE89B /* Shape Components */ = {
-			isa = PBXGroup;
-			children = (
-				F379FD1626010B94008DE89B /* CurvedRectangle.swift */,
-				F379FD1726010B94008DE89B /* Trapezoid.swift */,
-			);
-			path = "Shape Components";
-			sourceTree = "<group>";
-		};
 		F379FD1826010B94008DE89B /* Toolbox */ = {
 			isa = PBXGroup;
 			children = (
-				F379FD1C26010B94008DE89B /* RectangleCorner.swift */,
-				F379FD1926010B94008DE89B /* Extensions */,
 			);
 			path = Toolbox;
-			sourceTree = "<group>";
-		};
-		F379FD1926010B94008DE89B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				F379FD1A26010B94008DE89B /* CGRect */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F379FD1A26010B94008DE89B /* CGRect */ = {
-			isa = PBXGroup;
-			children = (
-				F379FD1B26010B94008DE89B /* CGRect+Points.swift */,
-			);
-			path = CGRect;
 			sourceTree = "<group>";
 		};
 		F379FD1D26010B94008DE89B /* Scene Views */ = {
@@ -432,16 +392,12 @@
 			files = (
 				F379FD3426010B94008DE89B /* RootView.swift in Sources */,
 				F379FD3C26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */,
-				F379FD2C26010B94008DE89B /* Trapezoid.swift in Sources */,
 				F30D6D27260110E90025335E /* WelcomeOptionsView.swift in Sources */,
 				F33875992609007600317786 /* ButtonStyles+FilledCallToActionButton.swift in Sources */,
 				F338759B2609007600317786 /* ButtonStyles+OutlinedCallToAction.swift in Sources */,
 				F338758D2608EC0800317786 /* LayeringExamplesViewer+LayeredBackgroundView.swift in Sources */,
-				F379FD2E26010B94008DE89B /* CGRect+Points.swift in Sources */,
-				F379FD3026010B94008DE89B /* RectangleCorner.swift in Sources */,
 				F379FCED25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */,
 				F39FB979260A008E008DA069 /* ImageAssets.swift in Sources */,
-				F379FD2A26010B94008DE89B /* CurvedRectangle.swift in Sources */,
 				F33875972609007600317786 /* ButtonStyles.swift in Sources */,
 				F33875912608ED0600317786 /* AnimationExamplesViewer.swift in Sources */,
 				F33875872607970400317786 /* LayeringExamplesViewer.swift in Sources */,
@@ -459,16 +415,12 @@
 			files = (
 				F379FD3526010B94008DE89B /* RootView.swift in Sources */,
 				F379FD3D26010CA3008DE89B /* WelcomeSceneViewer.swift in Sources */,
-				F379FD2D26010B94008DE89B /* Trapezoid.swift in Sources */,
 				F30D6D28260110E90025335E /* WelcomeOptionsView.swift in Sources */,
 				F338759A2609007600317786 /* ButtonStyles+FilledCallToActionButton.swift in Sources */,
 				F338759C2609007600317786 /* ButtonStyles+OutlinedCallToAction.swift in Sources */,
 				F338758E2608EC0800317786 /* LayeringExamplesViewer+LayeredBackgroundView.swift in Sources */,
-				F379FD2F26010B94008DE89B /* CGRect+Points.swift in Sources */,
-				F379FD3126010B94008DE89B /* RectangleCorner.swift in Sources */,
 				F379FCEE25FFE4AD008DE89B /* CurvedRectangleShapeDemo.swift in Sources */,
 				F39FB97A260A008E008DA069 /* ImageAssets.swift in Sources */,
-				F379FD2B26010B94008DE89B /* CurvedRectangle.swift in Sources */,
 				F33875982609007600317786 /* ButtonStyles.swift in Sources */,
 				F33875922608ED0600317786 /* AnimationExamplesViewer.swift in Sources */,
 				F33875882607970400317786 /* LayeringExamplesViewer.swift in Sources */,

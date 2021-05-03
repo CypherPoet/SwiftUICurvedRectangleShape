@@ -79,7 +79,6 @@ Then simply `import SwiftUICurvedRectangleShape` wherever you’d like to use th
 
 ## Usage
 
-
 Importing `SwiftUICurvedRectangleShape` will expose the `CurvedRectangle` type.
 
 ```swift
