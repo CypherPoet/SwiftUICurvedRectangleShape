@@ -79,15 +79,34 @@ Then simply `import SwiftUICurvedRectangleShape` wherever you’d like to use th
 
 ## Usage
 
-Full documentation for `SwiftUICurvedRectangleShape` can be found [here](https://cypherpoet.github.io/SwiftUICurvedRectangleShape/).
+
+Importing `SwiftUICurvedRectangleShape` will expose the `CurvedRectangle` type.
+
+```swift
+CurvedRectangle(
+    curveAxis: .horizontal,
+    leadingDepthPercentage: 8,
+    trailingDepthPercentage: 8
+)
+```
+
+Full documentation for `CurvedRectangle` can be found [here](https://cypherpoet.github.io/SwiftUICurvedRectangleShape/).
 
 Furthermore, the [demo app](./Examples/CurvedRectangeShapeDemo) contains a number of examples and
 explanations of how it can be used in practice.
 
 
-## 🗺 Roadmap
+<div align="center">
+   <img height="300px" src="./Extras/animation-recording.gif" alt="animating">
+   <img height="300px" src="./Extras/clipping.png" alt="clipping">
+   <img height="300px" src="./Extras/customization.png" alt="customization">
+   <img height="300px" src="./Extras/layering.png" alt="layering">
+</div>
 
-- Support being able to make smoother curves at each corner.
+
+<!-- ## 🗺 Roadmap
+
+- Support being able to make smoother curves at each corner. -->
 
 
 

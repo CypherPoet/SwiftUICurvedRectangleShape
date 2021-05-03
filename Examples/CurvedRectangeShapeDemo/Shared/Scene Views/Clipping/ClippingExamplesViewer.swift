@@ -18,20 +18,18 @@ struct ClippingExamplesViewer {
 extension ClippingExamplesViewer: View {
     
     var body: some View {
-        ScrollView {
-            VStack(spacing: baseFontSize) {
-                headerSection
+        VStack(spacing: baseFontSize) {
+            headerSection
+            ScrollView {
                 
                 descriptionSection
                     .padding(.horizontal)
                     .fixedSize(horizontal: false, vertical: true)
                 
                 ImageCollageView()
-                
-                Spacer()
             }
-            .background(ThemeColors.background1)
         }
+        .background(ThemeColors.background1)
         .edgesIgnoringSafeArea(.vertical)
     }
 }
@@ -39,7 +37,7 @@ extension ClippingExamplesViewer: View {
 
 // MARK: - Computeds
 extension ClippingExamplesViewer {
-    var headerHeight: CGFloat { baseFontSize * 12.5 }
+    var headerHeight: CGFloat { baseFontSize * 10.5 }
 }
 
 
@@ -81,9 +79,7 @@ private extension ClippingExamplesViewer {
 
 
 private extension ClippingExamplesViewer {
-    
     struct ImageCollageView {
-        //    @State private var frameSize: CGSize = .init()
     }
 }
 
