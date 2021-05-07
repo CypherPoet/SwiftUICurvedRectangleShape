@@ -1,4 +1,4 @@
-# SwiftUICurvedRectangleShape
+# CurvedRectangle
 
 <!-- Header Logo -->
 
