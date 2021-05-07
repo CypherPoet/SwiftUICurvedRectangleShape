@@ -6,4 +6,5 @@ github_url: https://github.com/CypherPoet/SwiftUICurvedRectangleShape
 theme: fullwidth
 swift_build_tool: spm
 clean: true
+output: ./docs
 min_acl: internal
